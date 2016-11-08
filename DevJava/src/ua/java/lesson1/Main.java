@@ -1,12 +1,23 @@
 package ua.java.lesson1;
 
+import java.util.Scanner;
+
 public class Main {
 	public static void main(String[] args) {
-		int a = 12;
-		int b = 13;
-		double c = a + b;
-		System.out.println(c);
-		System.out.println(b);
+		
+		/** 1.
+		Створити програму, що перевіряє і
+		повідомляє на екран, чи є ціле число
+		записане в змінну n, парним або непарним.
+
+		2.     Створити програму, що виводить на екран найближче до 10 з двох
+		чисел, записаних в змінні m і n. Наприклад, серед чисел 8,5 і 11,45
+		найближче до десяти 11,45.
+		 **/ 
+		
+		int a = 3;
+		
+		
 	}
 }
 
