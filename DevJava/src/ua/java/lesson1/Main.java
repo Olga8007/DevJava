@@ -30,6 +30,24 @@ public class Main {
 		
 		int c = 123456 % 1000;
 		System.out.println(c);
+		
+		System.out.println("Enter m= ");
+		int m = sc.nextInt();
+		System.out.println("Enter n= ");
+		int n = sc.nextInt();
+		
+		double t = 10 - m;
+		double p = 10 - n;
+		
+		if (t>p){
+			System.out.println("M digit closer  to 0 .");
+			
+		} else if (t<p){
+			System.out.println("N digit closer to 0 .");
+			
+		} else {
+			System.out.println("Both equal.");
+		}
 	}
 }
 
