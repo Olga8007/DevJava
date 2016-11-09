@@ -15,9 +15,21 @@ public class Main {
 		найближче до десяти 11,45.
 		 **/ 
 		
-		int a = 3;
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter number");
+		int res = sc.nextInt();
 		
+		System.out.println("Your input is: " + res);
 		
+		if (res % 2 == 0) {
+			System.out.println("Yes");
+			
+		} else {
+			System.out.println("No!");
+		}
+		
+		int c = 123456 % 1000;
+		System.out.println(c);
 	}
 }
 
